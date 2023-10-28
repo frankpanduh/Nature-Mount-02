@@ -8,12 +8,12 @@
 		Global Main Setup
 ------------------------ */
 @font-face {
-	font-family: "Noto Sans";
-	src: url("typo/NotoSans-Regular.ttf");
+	font-family: "IBMPlexSans";
+	src: url("typo/IBMPlexSans-Regular.ttf");
 }
 @font-face {
-	font-family: 'NotoSansBold';
-	src: url("typo/NotoSans-CondensedBold.ttf");
+	font-family: 'IBMPlexSansBold';
+	src: url("typo/IBMPlexSans-Bold.ttf");
 }
 
 @font-face {
@@ -28,7 +28,7 @@ body {
 	line-height: 1;
 }
 * {
-	font-family: "Noto Sans", serif;
+	font-family: "IBMPlexSans", serif;
 }
 /* ------------------------
 		Login Page 
@@ -95,7 +95,7 @@ body {
 	color : #c2a593;
 	
 	/* Typo Rules */
-	font-family: 'NotoSansBold', serif;
+	font-family: 'IBMPlexSansBold', serif;
 	font-size: 1.8em;
 	font-variant: small-caps;
 	text-align: center;
@@ -155,7 +155,7 @@ body {
 	width: calc(100% - 52px);
 	padding: 0 5%;
 	border: 0;
-	font-family: 'NotoSansBold', serif;
+	font-family: 'IBMPlexSans-BoldBold', serif;
 	background-color: #5d5446;
 	color: #c2a593;
 	position: relative;
@@ -183,7 +183,7 @@ input[type="submit"] {
 	background-color: #5d5446;
 
 	/* Typo Setup */
-	font-family: 'NotoSansBold', serif;
+	font-family: 'IBMPlexSans-BoldBold', serif;
 	color: #c2a593;
 	text-align: left;
 }
@@ -321,7 +321,7 @@ body.logged, .logged .content {
 	background-position: right;
 	color: #c2a593;
 	font-variant: small-caps;
-	font-family: 'NotoSansBold', serif;
+	font-family: 'IBMPlexSans-Bold', serif;
 
 }
 .logged #ynh-logo:before {
@@ -354,7 +354,7 @@ body.logged, .logged .content {
 	border-top: 2px #c2a593 solid;
 }
 .logged .footer a {
-	font-family: 'NotoSansBold', serif;
+	font-family: 'IBMPlexSans-Bold', serif;
 	font-size: .9em;
 	text-decoration: none;
 	color: #c2a593;
@@ -460,7 +460,7 @@ body.logged, .logged .content {
 		padding-bottom: 0;}  }
 
 .listing-apps a .first-letter {
-	font-family: 'NotoSansBold', serif;
+	font-family: 'IBMPlexSans-Bold', serif;
 	line-height: 2em;
 }
 
@@ -499,7 +499,7 @@ body.logged, .logged .content {
 	color: #c2a593;
 	background: url("pictures/picto.jpg") no-repeat 0 -156px #5d5446;
 	padding-left: 60px;
-	font-family: 'NotoSansBold', serif;
+	font-family: 'IBMPlexSans-Bold', serif;
 }
 .form-text:hover {
 	background-color: #2c2b27;
@@ -511,7 +511,7 @@ body.logged, .logged .content {
 	background-color: white;
 }
 .btn {
-	font-family: "NotoSansBold", serif;
+	font-family: "IBMPlexSans-Bold", serif;
 }
 .btn-group .btn:hover {
 	background-color: #2c2b27;
